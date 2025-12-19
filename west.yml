@@ -6,6 +6,9 @@ manifest:
       url-base: https://github.com/LairdCP
     - name: ncs
       url-base: https://github.com/nrfconnect
+    - name: stacksmash
+      url-base: https://github.com/stacksmash-vuln
+
 
   # Please add items below based on alphabetical order.
   # These dependencies may need updating if new features are added to the firmware.
@@ -16,7 +19,7 @@ manifest:
       remote: JsmnRepo
     - name: mg100_firmware
       revision: 508fd4fc1304c8e58461609f9abdb90531ba34f2
-      remote: LairdCP
+      remote: stacksmash
     - name: sdk-nrf
       path: nrf
       revision: 4c0d3be2ed4ade4dc3e614e95e6f8e4330d663b4
